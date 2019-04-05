@@ -1,3 +1,4 @@
+"use strict"
 //1)
 console.log(3*60*60);
 //2)
@@ -6,8 +7,8 @@ num += 12;
 num -= 14;
 num *= 5;
 num /= 7;
-num += 1;
-num -= 1;
+num++;
+num--;
 alert(num);
 //3)
 var a=10, b=2, c=5;
